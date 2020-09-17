@@ -14,7 +14,7 @@ function blazter_amelia_booking_completed( $inputData ) {
 
   // Assign the Amelia appointment data to variables
   $appointmentData = $inputData['appointment'];
-  $bookingData = $appointmentData;
+  $bookingData = $appointmentData['bookings'];
 
   // Set the url of the API you want to send a request to
   $url = 'https://example.com';
