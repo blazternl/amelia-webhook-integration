@@ -5,7 +5,7 @@ Use Amelia webhooks as if they were WordPress action hooks. Create your own Word
 Amelia webhook request data may look like this:
 
 Example appointment:
-```json
+```
 {
   appointment {
     id
